@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#130f40">
+
+    <ImageView
+        android:src="@drawable/notes_front"
+        android:layout_marginBottom="25dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+
+    <EditText
+        android:id="@+id/EtName"
+        android:hint="User Name"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:singleLine="true"
+        android:nextFocusDown="@id/EtPSWD"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/EtPSWD"
+        android:hint="Password"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/login_btn"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:background="@drawable/rounded_edittext"
+        android:backgroundTint="#6a89cc"
+        android:textColor="@color/whiteText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

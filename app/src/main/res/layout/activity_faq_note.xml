@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq_note"
+    android:background="@color/Black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        //Title 0
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/viewTitle"
+            android:text="What is Notes ?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/whiteText"/>
+
+        <!--        <TextView-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:id="@+id/viewDate"-->
+        <!--            android:text="99/99/999"-->
+        <!--            android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="-> Notes is an app which can take various type of note such as in form of Text, Image and voice."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lowWhiteText"
+            android:layout_marginBottom="20sp"/>
+
+
+        //Title 1
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Text Note"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/whiteText"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="-> Can store pure text format information"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lowWhiteText"
+            android:layout_marginBottom="20sp"/>
+
+
+
+        //Title 1
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="To Do List"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/whiteText"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="-> You can add your pending task here and can mark as done by checking the check box."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lowWhiteText"
+            android:layout_marginBottom="20sp"/>
+
+
+        //Title 1
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Voice Note"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/whiteText"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="-> Useful for recording any important voice, which can be stored as in audio file format useful for later stage."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lowWhiteText"
+            android:layout_marginBottom="20sp"/>
+
+        //Title 1
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Image Note"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/whiteText"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="-> Images can be captured and store using camera."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lowWhiteText"
+            android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

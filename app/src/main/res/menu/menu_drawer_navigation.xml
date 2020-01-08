@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Tools">
+        <group android:id="@+id/g1" android:checkableBehavior="single">
+            <item android:id="@+id/tdlNote" android:title="To Do List" android:icon="@drawable/to_do_list"/>
+            <item android:id="@+id/voiceNote" android:title="Voice Note" android:icon="@drawable/voice_note_icon"/>
+            <item android:id="@+id/imageNote" android:title="Image Note" android:icon="@drawable/image_note_icon"/>
+        </group>
+    </item>
+
+    <item android:title="Information">
+        <group android:id="@+id/g2" android:checkableBehavior="single">
+            <item android:id="@+id/faq" android:title="FAQ" android:icon="@drawable/help_note_icon"/>
+            <item android:id="@+id/about" android:title="About" android:icon="@drawable/about_view_icon"/>
+            <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/logout_note_icon"/>
+        </group>
+    </item>
+
+</menu>

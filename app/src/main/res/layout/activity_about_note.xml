@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_note"
+    android:background="@color/Black"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Notes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/whiteText"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="-> This app is the demonstration of Digital Note taking Technology, which is very useful in day to day life."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/lowWhiteText" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="This app is just made for education purpose and has no objection related to any ©Copy Right.  "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/lowWhiteText"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
